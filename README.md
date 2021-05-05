@@ -21,9 +21,10 @@ in this repository We work on 4 way to testing our application In the simplest
 possible way. . .
 
 * unittest
+* pytest
 * doctest
 * nose
-* pytest
+
 
 ## Technologies
 
@@ -31,6 +32,7 @@ Project is created with:
 
 * Python: 3.9
 * nose: 1.3.7
+* pytest: 6.2.4
 
 ## Help
 
@@ -94,6 +96,18 @@ nosetests
 
 ```shell
 nosetests -v test_file.py
+```
+
+* run all tests with pytest:
+
+```shell
+pytest
+```
+
+* run one test with pytest:
+
+```shell
+pytest -v test_file.py
 ```
 
 ## Credits
