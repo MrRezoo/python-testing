@@ -3,7 +3,7 @@ import unittest
 from sample_func import add, subtract, multiply, division
 
 
-class OneTest(unittest.TestCase):
+class TestOne(unittest.TestCase):
     def test_add(self):
         self.assertEqual(add(4, 9), 13)
         self.assertEqual(add(-3, 9), 6)

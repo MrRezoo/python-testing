@@ -3,7 +3,7 @@ import unittest
 from person import Person
 
 
-class PersonTest(unittest.TestCase):
+class TestPerson(unittest.TestCase):
 
     def setUp(self):
         self.p1 = Person('rezoo', 'mob')
