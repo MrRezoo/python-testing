@@ -10,14 +10,15 @@ Hello this is [Mr.Rezoo](https://www.linkedin.com/in/reza-mobaraki/)
 * [Technologies](#Technologies)
 * [Help](#Help)
 * [Setup](#Setup)
+* [Usage](#Usage)
 * [Credits](#credits)
 * [Contributors](#Contributors)
 * [License](#license)
 
 ## General info
 
-in this repository We work on 4 way to testing our application 
-In the simplest possible way. . .
+in this repository We work on 4 way to testing our application In the simplest
+possible way. . .
 
 * unittest
 * doctest
@@ -63,32 +64,38 @@ source venv/bin/activate
  pip install -r requirements.txt
 ```
 
+## Usage
+
 * run doctest: -v for more detail
+
 ```shell
 python -m doctest -v filename.py
 ```
-
 
 * run unittests:
 
 ```shell
 python -m unittest -v test_file.py
 ```
+
 * run all unittests:
 
 ```shell
 python -m unittest -v discover
 ```
+
 * run all tests with nose test:
 
 ```shell
 nosetests
 ```
+
 * run one test with nosetest:
 
 ```shell
 nosetests -v test_file.py
 ```
+
 ## Credits
 
 * [mongard](https://www.mongard.ir/courses/unittest)
