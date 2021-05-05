@@ -29,6 +29,7 @@ In the simplest possible way. . .
 Project is created with:
 
 * Python: 3.9
+* nose: 1.3.7
 
 ## Help
 
@@ -71,14 +72,23 @@ python -m doctest -v filename.py
 * run unittests:
 
 ```shell
-python -m unittest -v filename.py
+python -m unittest -v test_file.py
 ```
 * run all unittests:
 
 ```shell
 python -m unittest -v discover
 ```
+* run all tests with nose test:
 
+```shell
+nosetests
+```
+* run one test with nosetest:
+
+```shell
+nosetests -v test_file.py
+```
 ## Credits
 
 * [mongard](https://www.mongard.ir/courses/unittest)
