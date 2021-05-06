@@ -1,6 +1,6 @@
 import unittest
 
-from sample_func import add, subtract, multiply, division
+from src.sample_func import add, subtract, multiply, division
 
 
 class TestOne(unittest.TestCase):

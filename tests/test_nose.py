@@ -1,4 +1,4 @@
-import sample_func
+from src import sample_func
 
 
 def test_add():
