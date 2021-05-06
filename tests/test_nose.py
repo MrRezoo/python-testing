@@ -1,4 +1,4 @@
-import sample_func
+from models import sample_func
 
 
 def test_add():

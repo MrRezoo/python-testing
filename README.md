@@ -65,6 +65,10 @@ source venv/bin/activate
 ```shell
  pip install -r requirements.txt
 ```
+* last step : go to tests directory if you want to run test
+```shell
+ cd tests
+```
 
 ## Usage
 
