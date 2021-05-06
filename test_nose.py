@@ -1,5 +1,4 @@
-import pytest
-from models import sample_func
+import sample_func
 
 
 def test_add():
@@ -23,5 +22,3 @@ def multiply():
 
 def division():
     assert sample_func.multiply(12, 4) == 3
-    with pytest.raises(ZeroDivisionError):
-        sample_func.division(2, 0)

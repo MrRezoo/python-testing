@@ -2,7 +2,7 @@ import time
 
 import pytest
 
-from models.person import Person
+from person import Person
 
 
 class TestPerson:

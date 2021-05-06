@@ -1,6 +1,6 @@
 import unittest
 
-from models.person import Person
+from person import Person
 
 
 class TestPerson(unittest.TestCase):
